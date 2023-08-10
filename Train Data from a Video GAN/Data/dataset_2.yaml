@@ -1,0 +1,37 @@
+train: /content/Yolo_data/MyDrive/dataset_v2/train  # train images (relative to 'path') 128 images
+val: /content/Yolo_data/MyDrive/dataset_v2/valid # val images (relative to 'path') 128 images
+test: /content/Yolo_data/MyDrive/dataset_v2/test
+
+# Classes
+nc: 29  # number of classes
+names: [
+  'Insects',
+  'Bird',
+  'Goose',
+  'Seal',
+  'Jelly_fish',
+  'Crab',
+  'Fish',
+  'Mammal',
+  'Snake',
+  'Turtle',
+  'Frog',
+  'Amphibian',
+  'Worm',
+  'Giraffe',
+  'Ant',
+  'Lion',
+  'Deer',
+  'Monkey',
+  'Bear',
+  'Dolphin',
+  'Horse',
+  'Raptile',
+  'Eagle',
+  'Spider',
+  'Dog',
+  'Salamander',
+  'Otters',
+  'Crocodile',
+  'Parrot',
+]  # class names
